@@ -1,0 +1,15 @@
+service: testing-sls
+
+provider:
+  name: aws
+  ecr:
+    images:
+      img:
+        path: ./
+        platform: linux/amd64
+
+functions:
+  hello:
+    # handler: handler.hello
+    image:
+      name: img

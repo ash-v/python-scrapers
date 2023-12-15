@@ -1,0 +1,5 @@
+bs4
+selenium
+python-dateutil
+lxml
+pandas
